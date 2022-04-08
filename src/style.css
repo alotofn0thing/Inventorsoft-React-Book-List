@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  margin: 0;
+  background-color: #121212;
+  color: #ffff;
+  font-family: 'Space Mono', 'Segoe UI', 'Ubuntu', 'Source Sans Pro', 'monospace';
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+main {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.hr {
+  border: 1px solid #414141;
+}
+.persistent-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  z-index: 2;
+}
+
+input.styled-input {
+  width: calc(100% - (1em * 2));
+  padding: 0.5em 1em;
+  font: inherit;
+  color: #ffff;
+  background-color: #ffffff0d;
+  border: 2px solid #ffffff1a;
+  outline: none;
+  border-radius: 0.5em;
+  transition: all 250ms ease;
+}
+
+input.styled-input:hover {
+  border-color: #ffffff33;
+}
+
+input.styled-input:focus {
+  border-color: #2279dd;
+  box-shadow: 0 0 1.5em #2279db40;
+}
+
+header.bookbar-root {
+  border-bottom: 2px solid #ffffff33;
+  background-color: #121212;
+  position: sticky;
+  top: 0;
+  z-index: 1200;
+}
+
+.bookbar-title {
+  text-align: left;
+  margin-left: 2%;
+}

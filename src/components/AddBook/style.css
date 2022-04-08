@@ -1,0 +1,70 @@
+.add-book-root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff06;
+  border: 2px solid #ffffff1a;
+  border-radius: 0.5em;
+  gap: 1em;
+  padding: 0.3em;
+  margin: 0 15em 0 17em;
+}
+
+.add-book-root:hover {
+    border-color: #ffffff33;
+    transition: all 250ms ease;
+}
+
+.add-book-input {
+  flex-grow: 1;
+  height: 2em;
+  background-color: transparent;
+  color: #ffff;
+  outline: none;
+  border: none;
+  font: inherit;
+  caret-color: #2279dd;
+}
+
+.add-book-input::placeholder {
+  color: #ffffff4d;
+}
+
+.add-book-button-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-book-button {
+  cursor: pointer;
+  height: 3.5em;
+  width: 3.5em;
+  background-color: #2279dd;
+  font: inherit;
+  color: #ffff;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  transition: all 250ms ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-book-button:focus-visible {
+  transform: scale(1.1);
+}
+
+.add-book-button:hover {
+  opacity: 0.9;
+}
+
+.add-book-button:active {
+  opacity: 0.7;
+}
+
+.add-book-button:disabled {
+  cursor: default;
+  background-color: #ffffff33;
+}

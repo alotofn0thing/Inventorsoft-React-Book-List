@@ -1,0 +1,47 @@
+.tab-group-root {
+    display: flex;
+    flex-direction: row;
+    gap: 0.2em;
+    background-color: #121212;
+    padding: 0 13% 0 15%;
+  }
+
+.tab-item-root {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    padding: auto;
+    font-weight: bold;
+    font-size: large;
+  }
+
+.tab-item-main {
+    padding: 1.2em;
+    background-color: transparent;
+    border: 1px solid transparent;
+    outline: none;
+    font: inherit;
+    color: var(--color-fg);
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: all 250ms ease;
+}
+
+.tab-item-main:hover {
+    background-color: #ffffff0d;
+}
+
+.all {
+    color: #22d3d3;
+}
+
+.read {
+    color: #169c16;
+}
+
+.not-read {
+    color: #bd5316;
+}

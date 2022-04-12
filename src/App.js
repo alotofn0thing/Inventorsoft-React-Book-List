@@ -49,8 +49,8 @@ const App = () => {
       </header>
         <main>
           <AddBook onAddNewBook={onAddNewBook} />
-          <Stats {...statsData} onRemoveAll={onRemoveAll} />
         </main>
+        <Stats {...statsData} onRemoveAll={onRemoveAll} />
 
       <BookList 
       data={bookList} 

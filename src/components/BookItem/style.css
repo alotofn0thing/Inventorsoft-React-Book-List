@@ -4,14 +4,14 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 60px;
+  height: 50px;
   padding: 15px 10px;
   border: 1px solid #000;
   border-radius: 5px;
 }
   
 .book-count{
-  padding-left: 10%;
+  padding-left: 3%;
   font-weight: bold;
 }
 
@@ -21,7 +21,7 @@
 }
   
 .book-title.isRead {
-  color: green;
+  color: #5e5e5e;
   text-decoration: line-through;
 }
   
@@ -41,7 +41,7 @@
   border: 1px solid transparent;
   outline: none;
   font: inherit;
-  color: var(--color-fg);
+  color: #ffff;
   border-radius: 0.5em;
   cursor: pointer;
   transition: all 250ms ease;

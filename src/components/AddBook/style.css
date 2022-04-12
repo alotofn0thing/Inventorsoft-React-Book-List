@@ -1,23 +1,25 @@
 .add-book-root {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   background-color: #ffffff06;
   border: 2px solid #ffffff1a;
   border-radius: 0.5em;
   gap: 1em;
   padding: 0.3em;
-  margin: 0 15em 0 17em;
+  width: 50vw;
+  min-width: fit-content;
 }
 
 .add-book-root:hover {
     border-color: #ffffff33;
-    transition: all 250ms ease;
+    transition: all 500ms ease;
 }
 
 .add-book-input {
-  flex-grow: 1;
   height: 2em;
+  width: 100%;
   background-color: transparent;
   color: #ffff;
   outline: none;
@@ -47,13 +49,6 @@
   outline: none;
   border-radius: 0.3rem;
   transition: all 250ms ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.add-book-button:focus-visible {
-  transform: scale(1.1);
 }
 
 .add-book-button:hover {

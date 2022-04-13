@@ -1,30 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
-  margin: 0;
-  background-color: #121212;
-  color: #ffff;
-  font-family: 'Space Mono', 'Segoe UI', 'Ubuntu', 'Source Sans Pro', 'monospace';
-  box-sizing: border-box;
-  overflow: auto;
+	margin: 0;
+	background-color: #121212;
+	color: #ffff;
+	font-family: 'Space Mono', 'Segoe UI', 'Ubuntu', 'Source Sans Pro',
+		'monospace';
+	box-sizing: border-box;
+	overflow: auto;
 }
 
 .app {
-  min-height: 100vh;
+	min-height: 100vh;
 }
 
 main {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-  display: flex;
-  align-content: center;
-  justify-content: center;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	display: flex;
+	align-content: center;
+	justify-content: center;
 }
 
 header.bookbar-root {
-  border-bottom: 2px solid #ffffff33;
+	border-bottom: 2px solid #ffffff33;
 }
 
 .bookbar-title {
-  margin-left: 0.8em;
+	margin-left: 0.8em;
 }
